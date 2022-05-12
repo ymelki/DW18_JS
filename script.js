@@ -5,6 +5,51 @@
 // innerHTML="le nouveau text"; qui modifier le HTML de la div
 document.getElementById("madiv").innerHTML="le nouveau text";
 
+// PROPRIETE ET DES METHODES
+// LES METHODES => parenthèses : dans les parenthèses il y avait des parametres
+// LES PROPRIETE : Math.PI => il n y a pas de parentheses
+madiv=document.getElementById("madiv").innerHTML;
+
+/* une variable : 
+1 nom de variable par ex: age
+2 une valeur : 34
+=> age = 34
+la nom de variable age reçoit la valeur 34
+----------------
+PROPRIETE PAR PROPOSER PAR JS  : Math.PI=3.1453453
+PI : nom de variable
+3.1453453 : valeur
+PI=3.1453453
+
+MAPROPRIETEM=4543;
+*/
+
+/**
+ * ORDINATEUR : 
+ * CHAQUE LANCEMENT DANS L ORDINATEUR DOIT ETRE PRESENT DANS LA RAM (MEMOIRE VIVE)
+ * PROCESSEUR : COPIER VOS PROGRAMME EN RAM PROCESSEUR : LANCER CE QUI EST DANS LA RAM
+ * RAM : ETEINT : VIDE LA RAM DEMARRAGE : VIDE RAM : SE REMPLIT AU DEMARAGE
+ * 
+ */
+a=3; 
+b=5;
+
+// RAM [ EMPLACEMENT a=3 ; EMPLACEMENT a=5   ]
+// EXERCICE
+ 
+// 1 CREEZ UNE VARIABLE A = 10 
+// 2 CREEZ UNE VARIABLE B = 50
+// 3 AFFICHEZ DANS LA CONSOLE LA VARIABLES A est 10 et la VARIABLE B est 50
+// concatenation : le fait d affiche du text :  "LA VARIABLES A est " suivi d 'une variable
+// on utilise le " " + " "
+console.log(" LA VARIABLES A est " + a + "et la VARIABLE B " + b)
+
+
+
+
+age=34
+Math.PI=3.1453453
+
 /* ALGORITHMIQUE
 
 1 VARIABLES
