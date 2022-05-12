@@ -12,6 +12,19 @@
 */
 
 /* Les evenements  */
+ 
+// dans la documentation
+// dans quel objet je suis ?
+// est ce qu on me proposer de manipuler une méthode ou un propriété
+
 function toto(){
-    alert("vous avez cliqué sur le bouton");
+    // le prompt permet de demander à l'utilisateur via une boite de dialogue d'entrer un nombre
+    // on stocke l'information dans la variable nb_user
+   nb_user=prompt("devinez un nombre entre 1 et 100");
+   // On l'affiche 
+   // on a implicement l'objet window
+   // qui contient l'objet console
+   // qui contient la méthode log
+   console.log(nb_user);
+   location.assign("http://google.fr");
 }

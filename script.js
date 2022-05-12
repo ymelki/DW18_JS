@@ -42,9 +42,9 @@ if (age < 18 ) {
 /* 3 LES BOUCLES */
 // objectif : affiche 10 fois l'alerte : je suis heureux X fois !
 // ON DEMMARE la variable I A 0;ON S ARRETTE A 10;A CHAQUE FOIS ON INCREMENT DE 1
-/*for (i=0;i<2;i++) {
+for (i=0;i<2;i++) {
     alert("Je suis heureux !");
-}*/
+}
 
 /* Les fonctions */
 // SEGMENTER SON CODE
