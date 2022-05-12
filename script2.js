@@ -48,13 +48,19 @@ function toto(){
     // ECHANGER LES VARIABLE A ET B
 
     // CODE A VOUS ALGORITHMIQUE PERMETTANT D ECHANGER LES DEUX VARIABLES A ET B
-    a=b; // on perd la valeur d'origine de a . a =3 b = 5
-    b=a;
+    //a=b;  on perd la valeur d'origine de a . a =3 b = 5
+   // b=a;
 
     // solution : variable intermediaire : c
     c=a; // c va contenir le 3 . je le garde de cote
     a=b; // a = 5 . mais on a pas perdu a . a est dans c.
     b=c; // on recupere le 3 issue de c.
+
+
+
+
+    // AFFICHE LA VARIABLE A EST 5 et LA VARIABLE B EST 3
+    console.log(" LA VARIABLES A est " + a + " et la VARIABLE B est "  + b)
 
     rsel=10;
     rsucre=5;
@@ -63,12 +69,6 @@ function toto(){
     recpinter=rsel;
     resel=rsucre;
     rsucre=recpinter;
-
-
-
-    // AFFICHE LA VARIABLE A EST 5 et LA VARIABLE B EST 3
-    console.log(" LA VARIABLES A est " + a + " et la VARIABLE B est "  + b)
-
 
 
 
