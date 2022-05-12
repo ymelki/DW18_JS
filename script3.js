@@ -48,5 +48,8 @@ function fonction_texte(){
     // 4 . Je modifie le HTML Correspondant
     document.getElementById("div_texte").innerHTML=var_texte;
 
+    // OBJ 2 : le bouton du texte va affiche ce qui est ecris dans le texte
+    document.getElementById("bouton_text").innerHTML=var_texte
+
 }
 
