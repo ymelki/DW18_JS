@@ -31,8 +31,55 @@ function afficher_alert(){
 11 Ajouter dans la page html une div reserver à afficher des choses en JS : VIDE PAR DEFAUT
 12 Lorsqu on clique sur le bouton on affiche dans la div le contenue du champs texte
 13 on affiche dans la div le contenue du "Le texte contient : " champs texte
+13.1 Pareil que la question 13 ce n'est pas que le clique mais lorsque j'écris sur le champs texte
 14 on affiche dans la div le contenue du "Le prix est  : " champs texte La TVA est champs texte*1.2
 */
+
+function fboutton(){
+    
+    // affiche dans la div le contenue du champs texte
+    val_texte=document.getElementById("name").value // EX 100
+
+
+    console.log(val_texte); // affiche la valeur présente dans le champs texte
+    console.log(typeof(val_texte)); // typeof est une fonction qui affiche le type de ma variable
+    val_texte_tva=val_texte*1.2 // 120
+    console.log(val_texte_tva); // Si cest du texte : NaN
+    /**
+     * isNaN("test")
+     *   true
+    */
+     console.log(isNaN(val_texte)); // 12 => FALSE | "hello" => true
+
+
+     // si le texte entré est un nombre alors on affiche la TVA
+
+     // isNaN => verifier si le texte est un nombre : renvoie false
+     if (   isNaN(val_texte) == false    )   {
+
+        // AFFichage de la TVA dans la DIV
+        document.getElementById("div_texte").innerHTML= "Le prix TTC est  :  " +   val_texte_tva;
+
+     }
+
+     // si non : si le texte n est pas un nombre
+     else {
+        document.getElementById("div_texte").innerHTML= "Veuillez entré un nombre";
+
+     }
+
+
+
+    // code qui s'execute lorque je clique
+
+    //ALERT AFFICHANT BIENVENUE SUR LE BOUTTON
+    //alert("bienvenue sur le bouton !");
+
+    // ALERT AFFICHANT "Le bouton affiche "CE QUI ECRIT SUR LE BOUTON
+    //alert("Le bouton affiche : " + document.getElementById("monboutton").innerHTML);
+}
+
+
 /*
 function toto(){
     // le prompt permet de demander à l'utilisateur via une boite de dialogue d'entrer un nombre
@@ -86,14 +133,3 @@ console.log(" le sucre contient : " + sucre ) //   sucre afficher 50
 
 
 console.log("Bienvenue sur la page d'accueil");
-
-function fboutton(){
-
-    // code qui s'execute lorque je clique
-
-    //ALERT AFFICHANT BIENVENUE SUR LE BOUTTON
-    alert("bienvenue sur le bouton !");
-
-    // ALERT AFFICHANT "Le bouton affiche "CE QUI ECRIT SUR LE BOUTON
-    alert("Le bouton affiche : " + document.getElementById("monboutton").innerHTML);
-}
