@@ -1,4 +1,25 @@
-/**
+/*
+Exercice :
+creez une variable nom contenant votre nom
+creez une variable prenom contenant votre prenom
+creez une variable age contenant votre age
+Afficher dans la console.log "Bienvenue je m'appelle " suivie de votre prénom et nom
+et j'ai suivi de votre age
+Creez une variable prix_article1 = 50 
+Creez une variable prix_article2 = 80 
+Creez une variable prix_article3 = prix_article1 +  prix_article2
+Afficher dans la console.log "Le prix de l'article 1 est " prix_article1
+Afficher dans la console.log "Le prix de l'article 2 est " prix_article2
+Afficher dans la console.log "La somme des article sera de : prix_article3
+Mettre tout ce code dans une fonction ("debut") qui sera declenche suite au clique sur un bouton
+que vous creerez qui aura l'identifiant "deb"
+
+
+
+*/
+
+
+/**  RECAPITULATIF
  * 1 Faire un lien entre un fichier html et JS
  * => Dans le fichier html on aura le script après body
  * <script type="text/javascript" src="script5.js"></script>
