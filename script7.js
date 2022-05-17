@@ -314,7 +314,21 @@ console.log(a)
 
 // fonction calcul_TTC qui va renvoyé le prix * 1.2 pour renvoye le Prix TTC
 // fonction calcul_TVA qui va renvoyé le prix * 0.2 pour renvoye le Prix de la taxe
-// fonction calcul_reduc qui va renvoyé le prix * 0.9 pour renvoye le Prix reduit de 10%
+// fonction calcul_reduc_10 qui va renvoyé le prix * 0.9 pour renvoye le Prix reduit de 10%
+// fonction calcul_reduc_n qui va renvoyé le prix * reduc pour renvoye le Prix reduit du pourcentage renvoyé
+
+// fonction calcul reduc qui va multiplier le prix * la reduction qui va etre demande
+
+// fonction addition qui renvoie le resultat de l'addition de deux nombres
+
+function calcul_reduc(  param_prix  ,  param_reduc     ){
+    result=param_prix*param_reduc
+    return result
+}
+// la fonction calcul_reduc est appellé 
+le_prix=calcul_reduc(300,1.50)
+console.log("300*1.50=" + le_prix)
+
 
 // declarer un prix à 100
 
