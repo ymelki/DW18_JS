@@ -526,9 +526,95 @@ entre 0 et le nombre choisi
 Ex : nombre choisi 5 : 0+1+2+3+4+5
 
 
+
+
+Ex:  une fonction qu on pourra appeller "tfactorielle", qui va faire la multiplication
+ des nombre entre 1 et le nombre choisi
+Ex : nombre choisi 5 : 1*2*3*4*5
+Factorielle 5 : 1*2*3*4*5
+
+
 */
+console.log("---------------------DEBUT")
+function tsomme(nb) { // nb est le parametre d exemple
+    // cree un compteur c'est une variable qui demarre à 0
+     // save_var=0
+     let somme=0
+    for (let i=0;i<nb;i++){
+        // save_var=compteur+i
+        somme=i+somme;// somme = le nombre i + somme avant
+        console.log(i)
+        console.log(somme)
+    }
+    return somme
+}
+let compt=tsomme(15)
+console.log(compt)
+console.log("---------------------FIN")
+
+// 1 Creez un tableau de 5 valeurs : Creez une fonction permettant d'inverser
+// les deux premieres valeurs d'un tableau
+// 2 Afficher un tableau passé en parametre dans une fonction
+// 3 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// trouver la valeur max du tableau
+// 4 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// trouver la position correspondant à la valeur max du tableau
+// 5 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// retourner le nombre de case du tableau
+// 6 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// retourner le nombre de case du tableau
+// 7 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// retourner le somme des cases du tableau
+// 8 Creez un tableau de 5 valeurs : Creez une fonction permettant de 
+// trouver la valeur min du tableau
+// Fonction retournant  le premier element >10
+// copier un tableau dans un autre tableau
+// copier les 2 premiers elements dans un autre tableau
+
+let tab4=[23,25,45,34,54]
+//        0 1 2 3 4
+console.table(tab4)
+console.log("------------------DEBUT INVERSION TAB")
+function inv_2t(table){ // on abesoin un tableau donc on en a besoin en parametre
+     
+    // Afficher la case 0
+    // affiche la case 1
+    console.log(table[0]);
+    console.log(table[1]);
+    save0=table[0]
+    table[0]=table[1]
+    table[1]=save0
+    return table
+}
+tab5=inv_2t(tab4)
+console.table(tab5)
 
 
+
+
+// tab4=[1,2,3,4,5]
+//       0 1 2 3 5
+// parcours mon tableau 
+// 1 METHODE 
+// BOUCLE FOR
+// M1
+for (const element of tab4 ){
+    console.log(element)
+} 
+// M2
+for (let i=0; i<tab4.length; i++){
+    console.log(tab4[i])
+}
+
+console.log(tab4[0])
+console.log(tab4[1])
+console.log(tab4[2])
+console.log(tab4[3])
+console.log(tab4[4])
+
+// affiche_tab(tab4) 
+// afficher mon tableau
+// 2 methodes afficher un tableau
 
 
 
