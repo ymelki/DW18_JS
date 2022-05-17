@@ -483,6 +483,14 @@ let tab=[23,"tre",78,true]
 console.table(tab)
 
 // creez un tableau "votre prenom" , votre nom et votre age et affichez le 
+// afficher une case n2 précise du tableau
+console.log(tab[2])
+
+// boucle sur un tableau 
+
+for (const element of tab ){
+    console.log(element)
+}
 
 
 
