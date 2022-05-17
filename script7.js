@@ -425,12 +425,61 @@ function test20(){
 
 test20()
 console.log(age)
-
+ 
 
 {
-  let  a="test"
+  let tr2="test" // liberte : erreurs potentiels avec les autres blocs
+  const tre2="test"
+  // tre2="je modifier"
+  let  tre="test"
+  tre="je peux le modifier"
+}   
+
+
+
+
+
+
+
+
+
+
+ // var  abc="test issue du code general"
+
+ let b="test issue du code general"
+ let variablestest="testvariablestest"
+function test23(){
+    //console.log(variablestest)
+    let variablestest="test_fonction"
+    console.log(variablestest)
+    let b="test issue de la fonction test23" // abc est definit avec let et n existe que dans le bloc
+    // abc="test issue de la fonction test23" // abc est definit avec let et n existe que dans le bloc
+    console.log(b)
 }
-console.log(a)
+test23()
+console.log(b)
+
+// string : "" , number : sans "", booleen : true , false
+// tableau [ 23  , 56  , 78  , 90  ]
+//           0     1     2     3
+let tab=[23,"tre",78,true]
+console.table(tab)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// on declare nos variable au debut du bloc avec const ou let 
 
 
 
