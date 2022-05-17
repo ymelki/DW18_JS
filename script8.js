@@ -1,13 +1,13 @@
 /**
  * Les variables : typeof(variable)
  * Booleen OK
- * Tableau
+ * Tableau OK 
  * Objet 
  * 
  * Notion de portée de variable : 
- * const  
- * let 
- * var
+ * const   OK
+ * let OK
+ * var OK
  * 
  * Fonctions 
  * La notions de parametre ok (1 , 2 )

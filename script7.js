@@ -493,10 +493,40 @@ for (const element of tab ){
 }
 
 
+
+
 // creez un tableau de 5 valeur , afficher le tableau console.tab 
 // affiche la cellule 3 et 5 du tableau
 // boucler pour afficher tout le tableau
 
+
+// ALGO : 
+
+// Variable
+// condition 
+// boucles
+// fonctions
+
+// EXERCICE : AVANT DE CODER EN LANGAGE JS
+// CODER EN FRANCAIS
+
+/*
+EX : Faite une fonction permettant de faire une addition entre 2 nombres
+
+// fonction elle a besoin de deux parametre en variables
+// elle va avoir besoin d un parametre en retour
+
+function add ( nb1 , nb2 ){
+    result=nb1 + nb 2
+    return result
+}
+
+Ex:  une fonction qu on pourra appeller "tsomme", qui va faire la somme des nombre
+entre 0 et le nombre choisi
+Ex : nombre choisi 5 : 0+1+2+3+4+5
+
+
+*/
 
 
 
