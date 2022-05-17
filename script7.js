@@ -459,11 +459,30 @@ function test23(){
 test23()
 console.log(b)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // string : "" , number : sans "", booleen : true , false
 // tableau [ 23  , 56  , 78  , 90  ]
 //           0     1     2     3
 let tab=[23,"tre",78,true]
 console.table(tab)
+
+// creez un tableau "votre prenom" , votre nom et votre age et affichez le 
 
 
 
