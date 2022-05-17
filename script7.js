@@ -312,3 +312,26 @@ function test(){
 a=test();
 console.log(a)
 
+// fonction calcul_TTC qui va renvoyé le prix * 1.2 pour renvoye le Prix TTC
+// fonction calcul_TVA qui va renvoyé le prix * 0.2 pour renvoye le Prix de la taxe
+// fonction calcul_reduc qui va renvoyé le prix * 0.9 pour renvoye le Prix reduit de 10%
+
+// declarer un prix à 100
+
+function calcul_TTC(param_prix){
+    // elle créé une variable prix_ttc qui contient le param_prix(100) * 1.2 et elle le renvoie (120)
+    prix_ttc= param_prix*1.2   ;
+    return prix_ttc
+}
+// la fonction calcul_ttc est appellé 
+le_prix=calcul_TTC(300)
+console.log(le_prix)
+// la fonction calcul_ttc est appellé 
+le_prix=calcul_TTC(200)
+console.log(le_prix)
+// la fonction calcul_ttc est appellé 
+le_prix=calcul_TTC(50)
+console.log(le_prix)
+// la fonction calcul_ttc est appellé 
+le_prix=calcul_TTC(500)
+console.log(le_prix)
