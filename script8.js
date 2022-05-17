@@ -10,8 +10,8 @@
  * var
  * 
  * Fonctions 
- * La notions de parametre
- * Une fonction renvoyé quelque chose ou pas
+ * La notions de parametre ok (1 , 2 )
+ * Une fonction renvoyé quelque chose ou pas ok (addition , tva , reduc)
  * Algo : somme, tri
  * Callback
  * 

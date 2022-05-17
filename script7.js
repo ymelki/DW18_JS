@@ -350,3 +350,30 @@ console.log(le_prix)
 // la fonction calcul_ttc est appellé 
 le_prix=calcul_TTC(500)
 console.log(le_prix)
+
+
+// booleen
+// LA FONCTION VA RENVOYER VRAI SOIT FAUX
+
+// check_majeur // vrai la personne est majeur soit c'est faut
+info=true; 
+info2=false;
+
+console.log(info)
+console.log(info2)
+
+// fonction qui verfie si est majeur ou pas : renvoie true si on est majeur
+
+function check_age( age  ){
+   
+    if (age >17){
+      return true;
+   }
+   else {
+      return false;
+   }
+
+}
+
+a=check_age(15)
+console.log("check_age:"+a)
