@@ -377,3 +377,48 @@ function check_age( age  ){
 
 a=check_age(15)
 console.log("check_age:"+a)
+
+// fonction de verifier si un nombre est superieur à 0
+function positif(nb){
+    if (nb > 0) {
+        return true
+    }
+    if (nb < 0) {
+       return false
+    }
+}
+a=positif(15)
+console.log("positif:"+a)
+
+
+// fonction de verifier si un nombre est  pair
+function check_pair(  nb ) {
+    if (nb % 2 == 0){
+        return true
+    }
+    else {
+        return false;
+    }
+}
+a=check_pair(12)
+console.log("pair:"+a)
+
+
+
+
+
+
+
+
+
+
+// tableau console.tab
+// ajouter des données dans un tableau
+// supprimer des données dans un tableau
+// somme des elements d'un tableau
+// max min d'un tableau
+// copier un tableau dans un autre tableau
+
+
+
+// echanger les deux premiers parametre d un tableau
