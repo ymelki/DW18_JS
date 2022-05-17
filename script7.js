@@ -493,6 +493,9 @@ for (const element of tab ){
 }
 
 
+// creez un tableau de 5 valeur , afficher le tableau console.tab 
+// affiche la cellule 3 et 5 du tableau
+// boucler pour afficher tout le tableau
 
 
 
