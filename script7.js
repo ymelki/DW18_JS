@@ -403,8 +403,34 @@ function check_pair(  nb ) {
 a=check_pair(12)
 console.log("pair:"+a)
 
+// portée des variables
+// const (constante ca empeche toute modification possible) : A utiliser en priorité 1
+// , let : A utiliser mais on protege nos bloc de fonction , de if , de boucle 2
+// portée (scope) => limité au bloc
+//, var priorité 3
+const mavariable="ce que je veux" // variable qui ne peut plus être modifié
+// erreur : mavariable="autre chose"
+console.log(mavariable)
+
+// age à 45 ans
+let age=45;
+console.log(age);
+
+function test20(){
+    let age=56 
+    let var_temp="ce que je veux"
+    console.log(var_temp)
+    console.log("L age dans la fonction " +age)
+}
+
+test20()
+console.log(age)
 
 
+{
+  let  a="test"
+}
+console.log(a)
 
 
 

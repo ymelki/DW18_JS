@@ -1,6 +1,6 @@
 /**
  * Les variables : typeof(variable)
- * Booleen
+ * Booleen OK
  * Tableau
  * Objet 
  * 
