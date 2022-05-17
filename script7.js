@@ -682,6 +682,26 @@ console.log("-----NBMAX : " +  nbmax)
 
 
 
+// on declare nos variable au debut du bloc avec const ou let 
+let tab_nb2=[34,23,60,45,67,78]
+//          0   1 2   3  4  5
+// LA PREMIERE > 50
+function sup_tab2(montab){
+ 
+   
+    // COMPARER(IF) tout les nombres
+    // il faut PARCOURIR BOUCLER (FOR) SUR LE TABLEAU
+    for (let i=0; i<montab.length; i++){
+         // JE COMPARER AVEC LE NOMBRE LE PLUS GRAND TROUVE AVEC CELUI EN COURS
+        if ( montab[i] > 49  ){ // 34 EST COMPARE AVEC 198 IL PASSE 
+            return  montab[i] // VALEUR = 198
+        } 
+    }  
+}
+let nbmax2=sup_tab2(tab_nb2)
+console.log("-----NBMAX : " +  nbmax2)
+
+
 
 
 
