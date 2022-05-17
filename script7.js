@@ -593,7 +593,7 @@ console.table(tab5)
 
 
 // tab4=[1,2,3,4,5]
-//       0 1 2 3 5
+//       0 1 2 3 4
 // parcours mon tableau 
 // 1 METHODE 
 // BOUCLE FOR
@@ -616,7 +616,41 @@ console.log(tab4[4])
 // afficher mon tableau
 // 2 methodes afficher un tableau
 
+// creez une fonction prenant en parametre deux nombre : nb1 , NB2
+// renvoyer uniquement le nombre le plus grande des deux
+// EX : sup(45 , 67) => 67
+// creez une fonction prenant en parametre deux nombre : nb1 , NB2
+// renvoyer uniquement le nombre le plus grande des deux
+// EX : sup(45 , 67) => 67
 
+function sup(nb1, nb2){
+    // ON COMPARE LES VARIABLES
+    if (nb1<nb2) { // NB2 SERA SUPERIEU
+       return nb2
+    }
+    else { // NB1 SERA SUPERIEU
+       return nb1
+    }
+ }
+ 
+
+ superieur=sup(34,56)
+ console.log(superieur)
+
+    function inf(nb1,nb2){
+    // ON COMPARE LES VARIABLES
+    if (nb1>nb2) { // NB2 SERA inferieu
+        return nb2
+    }
+    else { // NB1 SERA SUPERIEU
+        return nb1
+    }
+ }
+superieur=inf(34,56)
+
+
+console.log(superieur)
+ // je compare uniquement deux valeurs entre elles
 
 
 
@@ -626,6 +660,24 @@ console.log(tab4[4])
 
 
 // on declare nos variable au debut du bloc avec const ou let 
+let tab_nb=[34,23,198,45,67,78]
+//          0   1 2   3  4  5
+function sup_tab(montab){
+
+    valeur=tab_nb[0] // on initialise à 34
+   
+    // COMPARER(IF) tout les nombres
+    // il faut PARCOURIR BOUCLER (FOR) SUR LE TABLEAU
+    for (let i=0; i<montab.length; i++){
+         // JE COMPARER AVEC LE NOMBRE LE PLUS GRAND TROUVE AVEC CELUI EN COURS
+        if (valeur <  montab[i] ){ // 34 EST COMPARE AVEC 198 IL PASSE
+            valeur=montab[i] // VALEUR = 198
+        } 
+    } 
+        return valeur
+}
+let nbmax=sup_tab(tab_nb)
+console.log("-----NBMAX : " +  nbmax)
 
 
 
