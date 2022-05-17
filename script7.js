@@ -292,7 +292,8 @@ function fmult(){
 // lorsque je vais ecrire un nombre dans le champ tva 
 document.getElementById("tva").addEventListener("keyup", ftva)
 function ftva(){
-    val_tva=document.getElementById("tva").value*1.2
+    // val_tva=document.getElementById("tva").value*1.2
+    val_tva=calcul_TTC(document.getElementById("tva").value)
     // dans la div dtva j'écris la valeur du PRIX TTC : Valeur ecrite * 1.2
     document.getElementById("dtva").innerHTML=val_tva
 }
